@@ -1,0 +1,77 @@
+# Ban Reasons
+banreasons:
+  cheating:
+    command: "/ban <player> Cheating 14d -s"
+    lore:
+      - "<player> will be temporarily banned for  Cheating"
+    slot: 10
+    material: "IRON_SWORD"
+    itemName: "§c§lCheating"
+  trolling:
+    command: "/ban <player> Trolling 2d -s"
+    lore:
+      - "<player> will be temporarily banned for Trolling"
+    slot: 11
+    material: "DIAMOND_HELMET"
+    itemName: "§c§lTrolling"
+  bugusing:
+    command: "/ban <player> Bugusing 7d -s"
+    lore:
+      - "<player> will be temporarily banned for Bugusing"
+    slot: 12
+    material: "TNT"
+    itemName: "§c§lBugusing"
+  username:
+    command: "/ban <player> Inacceptable Username 30d -s"
+    lore:
+      - "<player> will be temporarily banned for Username"
+    slot: 13
+    material: "SKULL_ITEM"
+    itemName: "§c§lUsername"
+
+# Mute Reasons
+mutereasons:
+  cheating:
+    command: "/mute <player> Chat 14d -s"
+    lore:
+      - "<player> will be temporarily muted for Chat"
+    slot: 10
+    material: "PAPER"
+    itemName: "§c§lChat"
+  trolling:
+    command: "/ban <player> Trolling 2d -s"
+    lore:
+      - "<player> will be temporarily banned for Trolling"
+    slot: 11
+    material: "DIAMOND_HELMET"
+    itemName: "§c§lTrolling"
+  bugusing:
+    command: "/ban <player> Bugusing 7d -s"
+    lore:
+      - "<player> will be temporarily banned for Bugusing"
+    slot: 12
+    material: "TNT"
+    itemName: "§c§lBugusing"
+  username:
+    command: "/ban <player> Inacceptable Username 30d -s"
+    lore:
+      - "<player> will be temporarily banned for Username"
+    slot: 13
+    material: "SKULL_ITEM"
+    itemName: "§c§lUsername"
+
+# Inventory Names (don't name both inventorys the same or bad will happen!)
+inventory:
+  bantitle: "§e§lBan Panel"
+  mutetitle: "§e§lMute Panel"
+
+# Meta Tags
+meta:
+  prefix: "§cVatlog §8>> §7"
+  nopermission: "§cYou do not have permission to execute this command"
+  viewMutes: "§aView Mutes"
+  viewBans: "§aView Bans"
+  lastPage: "§cLast Page"
+  nextPage: "§cNext Page"
+  neverBanned: "§a§lPlayer was never banned!"
+  neverMuted: "§a§lPlayer was never muted!"

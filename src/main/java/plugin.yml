@@ -1,0 +1,7 @@
+name: VatlogPanel
+version: 1.0
+author: Chriis
+main: de.chriis.vatlog.VatlogPanel
+commands:
+  punish:
+    aliases: ["punishment", "sancion"]
